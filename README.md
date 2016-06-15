@@ -1,6 +1,6 @@
 # hubot-uuid
 
-A hubot script that enables your bot to provide a UUID on demand[D[D[C[C
+A hubot script that enables your bot to provide a UUID on demand.
 
 See [`src/uuid.coffee`](src/uuid.coffee) for full documentation.
 
