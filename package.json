@@ -1,0 +1,35 @@
+{
+  "name": "hubot-uuid",
+  "description": "A hubot script that enables your bot to provide a UUID on demand",
+  "version": "0.0.0",
+  "author": "Lee Blundell <leeblundell16@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "uuid",
+    "uuidtech"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hubot-scripts/hubot-uuid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hubot-scripts/hubot-uuid/issues"
+  },
+  "dependencies": {
+    "node-uuid": "^1.4.7"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "coffee-script": "^1.10.0",
+    "hubot-test-helper": "^1.4.4",
+    "mocha": "*",
+    "sinon": "*",
+    "sinon-chai": "*"
+  },
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register -R dot",
+    "test:watch": "mocha --compilers coffee:coffee-script/register -R dot -w"
+  }
+}
