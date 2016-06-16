@@ -1,8 +1,11 @@
 # Description
 #   A hubot script that enables your bot to provide a UUID on demand
 #
+# Dependencies
+#  "node-uuid": "^1.4.7"
+#
 # Commands:
-#   uuid please
+#   hubot uuid - respond with a UUID
 #
 # Author:
 #   Lee Blundell <leeblundell16@gmail.com>
