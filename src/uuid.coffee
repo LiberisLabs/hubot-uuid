@@ -7,8 +7,8 @@
 # Author:
 #   Lee Blundell <leeblundell16@gmail.com>
 
-uuidFactory = require('node-uuid')
+uuid = require('node-uuid')
 
 module.exports = (robot) ->
   robot.respond /uuid/i, (msg) ->
-    msg.reply uuidFactory.v4()
+    msg.reply uuid.v4()
