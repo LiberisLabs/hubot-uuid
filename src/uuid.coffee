@@ -10,5 +10,5 @@
 uuidFactory = require('node-uuid')
 
 module.exports = (robot) ->
-  robot.respond /uuid please/, (msg) ->
+  robot.respond /uuid/i, (msg) ->
     msg.reply uuidFactory.v4()
