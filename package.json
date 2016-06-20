@@ -12,10 +12,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-uuid.git"
+    "url": "LiberisLabs/hubot-uuid"
   },
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-uuid/issues"
+    "url": "https://github.com/LiberisLabs/hubot-uuid/issues"
   },
   "dependencies": {
     "node-uuid": "^1.4.7"
